@@ -6,7 +6,7 @@ namespace warmupsNET_episode01.Models
     {
         [Display(Name = "Wpisz liczbę")]
         [Range(1, 100, ErrorMessage = "Oczekiwana wartość {0} z zakredu {1} i {2}.")]
-        [Required(ErrorMessage="Pole jest obowiązkowe")]
+        [Required(ErrorMessage="Pole jest obowiązkowe (zmienione)")]
         public int? Number { get; set; }
         public string Check()
         {

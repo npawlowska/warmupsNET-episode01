@@ -20,3 +20,13 @@ body {
 .row-margin {
     margin: 10px 0;
 }
+
+h1 {
+    color: blueviolet;
+    font-style: oblique;
+}
+
+h2{
+    color: aquamarine;
+    font-style: revert-layer;
+}
